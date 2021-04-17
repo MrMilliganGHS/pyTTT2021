@@ -19,7 +19,7 @@ def make_move(row, col, symbol):
   else:
     print('Space Already Taken - Try Again')
     r_choice = int(input('Which row would you like to choose? '))
-    c_choice = int(input('Which row would you like to choose? '))
+    c_choice = int(input('Which column would you like to choose? '))
     make_move(r_choice, c_choice, symbol)
 
 
